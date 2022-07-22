@@ -9,5 +9,5 @@ function test {
 }
 
 test $lxd_storage_use 90 "lxd"
-test $backup_storage_use 50 "backup"
+test $backup_storage_use 70 "backup"
 test $root_storage_use 60 "root"
